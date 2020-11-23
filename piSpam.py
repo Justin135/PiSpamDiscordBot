@@ -21,4 +21,4 @@ async def on_ready():
     general_channel = client.get_channel(769024871719501838)
     await general_channel.send("Sup.")
 
-client.run(TOKEN)
+client.run(data['saver'])
