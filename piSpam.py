@@ -9,8 +9,6 @@ from discord.ext import commands
 with open(os.path.abspath(os.path.join(os.path.dirname("piSpam.py"), "PiSpamDiscordBot\\secret.json"))) as f:
     data = json.load(f)
 
-TOKEN = data['token']
-print(TOKEN)
 
 #Client (our bot)
 
@@ -21,4 +19,6 @@ async def on_ready():
     general_channel = client.get_channel(769024871719501838)
     await general_channel.send("Sup.")
 
-client.run(data['saver'])
+print(data['saver'] + data['saver2'] + data['saver3'])
+
+#client.run(data['saver'] + data['saver2'] + data['saver3'])
