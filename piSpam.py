@@ -21,4 +21,4 @@ async def on_ready():
 
 print(data['saver'] + data['saver2'] + data['saver3'])
 
-#client.run(data['saver'] + data['saver2'] + data['saver3'])
+client.run(data['saver'] + data['saver2'] + data['saver3'])
